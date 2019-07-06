@@ -1,0 +1,1 @@
+<?php echo $pdf_block_html; ?>

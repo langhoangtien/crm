@@ -1,0 +1,3 @@
+<?php if (!empty($attribute)) :?>
+<input id = "<?php echo $attribute->code ?>" class="form-control <?php if (!empty($attribute->required) && $attribute->required == Attribute::YES) :?>required<?php endif; ?> attribute-input" type="text" name="attributes[<?php echo $attribute->id; ?>]" <?php if (!empty($attribute_values[$attribute->id])) :?>title ="<?php echo $attribute_values[$attribute->id]->entity_value_formula; ?>" value="<?php echo $attribute_values[$attribute->id]->entity_value; ?>"<?php endif; ?>  />
+<?php endif; ?>

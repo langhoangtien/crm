@@ -1,0 +1,40 @@
+.n9-autocomplete-result {
+    display: none;
+}
+
+.n9-autocomplete-result .item a:hover {
+    background: #489ee7 !important;
+}
+
+.n9-autocomplete-result .item a:hover .name, .n9-autocomplete-result .item.active .name {
+    color: white;
+}
+
+.n9-autocomplete-result .item a:hover .email, .n9-autocomplete-result .item.active .email {
+    color: white;
+}
+
+.n9-autocomplete-result .item.active {
+    background: #489ee7;
+}
+
+.n9-autocomplete-result-list {
+    margin-top: 5px;
+}
+
+.n9-autocomplete-result-list span.key {
+    margin-right: 5px;
+}
+
+.n9-autocomplete-result-list .delete-payment {
+    color: #FF7474;
+    font-weight: 500;
+}
+
+.register .register-right .customer-form.group-n9 .input-group {
+    height: 40px;
+}
+
+.register .register-right .customer-form.group-n9 .ui-autocomplete-input {
+    height: 40px;
+}

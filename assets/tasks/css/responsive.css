@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    #my_modal .modal-lg {
+        width: 1358px;
+    }
+}
+
+@media print, screen and (max-width: 788px) {
+    #content {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .box-modal .modal-content {
+        width: 700px;
+    }
+}
+
+@media print, screen and (max-width: 700px) {
+    #add_navigation #thietlap_content {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}

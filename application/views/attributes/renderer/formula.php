@@ -1,0 +1,4 @@
+<?php if (!empty($attribute)) :?>
+<textarea readonly <?php if (!is_numeric(htmlspecialchars($attribute_values[$attribute->id]->entity_value_formula))): ?>  style = "cursor:pointer;" title ="<?php echo htmlspecialchars($attribute_values[$attribute->id]->entity_value_formula); ?>" <?php endif;?> class="form-control <?php if (!empty($attribute->required) && $attribute->required == Attribute::YES) :?>required<?php endif; ?>" type="text"><?php if (!empty($attribute_values[$attribute->id])) :?><?php echo $attribute_values[$attribute->id]->entity_value; ?><?php else:?><?php echo htmlspecialchars($attribute->formula)?><?php endif;?></textarea>
+<input id = "<?php echo $attribute->code ?>" class ="attribute-input" type = "hidden" name="attributes[<?php echo $attribute->id; ?>]" value ="<?php echo htmlspecialchars($attribute->formula)?>">
+<?php endif; ?>

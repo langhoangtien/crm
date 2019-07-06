@@ -1,0 +1,15 @@
+/application/config/database.php
+/application/logslog*
+.disabled
+/document/offline
+/document/pdf
+.idea
+/application/config/development
+/application/config/production
+/application/config/testing
+.htaccess
+migrations/node_modules
+migrations/package-lock.json
+migrations/database.json
+_index.php
+index.php

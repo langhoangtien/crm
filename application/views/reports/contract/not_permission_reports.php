@@ -1,0 +1,1 @@
+<p>Bạn không có quyền vào xem báo cáo!</p>
